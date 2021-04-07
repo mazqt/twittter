@@ -46,6 +46,10 @@
               <%end%>
           </nav>
           <% end %>
+        <% else %>
+          <%= link_to tweeet, class: "media-left" do %>
+                <span class="icon"><i class="fa fa-link" aria-hidden="true"></i></span>
+              <%end%>
         <% end %>
       </div>
     </article>
